@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@LIMEHUSTLE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        .button2 {
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-top: 20px;  /* Уменьшенный отступ */
+          display: block;    /* Чтобы кнопка была на отдельной строке */
+          margin-left: auto;
+          margin-right: auto;
+          width: fit-content;
+        }
+        .button2:hover {
+          background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>@LIMEHUSTLE</h1>
+    
+    <!-- Контейнер для основных элементов управления -->
+    <div class="main-controls">
+        <div class="grid-container">
+            <div class="grid"></div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="num-cells" value="5 💣" readonly> 
+            <button id="highlight-btn">СИГНАЛ</button>
+        </div>
+
+        <!-- Кнопка назад -->
+        <button class="button2" onclick="location.href='../index.html'">Back to menu</button>
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Количество ловушек:</h2> 
+            <div class="button-grid">
+               <button class="num-button" data-value="2">2</button>
+               <button class="num-button" data-value="3">3</button>
+               <button class="num-button" data-value="5">5</button>
+               <button class="num-button" data-value="7">7</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
