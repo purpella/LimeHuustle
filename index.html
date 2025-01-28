@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Игровой портал</title>
+    <title>РРіСЂРѕРІРѕР№ РїРѕСЂС‚Р°Р»</title>
     <style>
         @font-face {
             font-family: 'Intro';
@@ -51,14 +51,9 @@
         }
 
         .language-selection {
-            position: relative; /* Изменено с fixed на relative */
-            z-index: 10;
-            width: 100%;
             display: flex;
             justify-content: center;
-            background-color: #333;
-            padding: 10px 0;
-            border-radius: 50px;
+            margin-top: 20px;
         }
 
         .language-option {
@@ -218,7 +213,7 @@
             transform: translateY(2px);
         }
         canvas#particleCanvas {
-            position: fixed; /* Фиксируем канвас на фоне */
+            position: fixed; /* Р¤РёРєСЃРёСЂСѓРµРј РєР°РЅРІР°СЃ РЅР° С„РѕРЅРµ */
             top: 0;
             left: 0;
             width: 100%;
@@ -604,11 +599,11 @@
             cursor: pointer;
         }
         .close-button-mini:hover {
-            color: #f00; /* Красный цвет при наведении */
+            color: #f00; /* РљСЂР°СЃРЅС‹Р№ С†РІРµС‚ РїСЂРё РЅР°РІРµРґРµРЅРёРё */
         }
     .telegram-button {
     display: flex;
-    justify-content: center; /* Центрирование кнопки по горизонтали */
+    justify-content: center; /* Р¦РµРЅС‚СЂРёСЂРѕРІР°РЅРёРµ РєРЅРѕРїРєРё РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
     align-items: center;
     font-size: 16px;
     font-weight: bold;
@@ -622,7 +617,7 @@
     transition: all 0.2s ease;
     outline: none;
     font-family: 'Intro', Arial, sans-serif;
-    margin: 20px auto; /* Отступы сверху и снизу и центрирование по горизонтали */
+    margin: 20px auto; /* РћС‚СЃС‚СѓРїС‹ СЃРІРµСЂС…Сѓ Рё СЃРЅРёР·Сѓ Рё С†РµРЅС‚СЂРёСЂРѕРІР°РЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
 }
 
 .telegram-button:hover {
@@ -638,14 +633,14 @@
 
 .language-selection {
     display: flex;
-    flex-wrap: wrap; /* Иконки будут переноситься на новую строку, если не помещаются */
-    justify-content: center; /* Центрирование иконок */
-    gap: 10px; /* Расстояние между иконками */
+    flex-wrap: wrap; /* РРєРѕРЅРєРё Р±СѓРґСѓС‚ РїРµСЂРµРЅРѕСЃРёС‚СЊСЃСЏ РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ, РµСЃР»Рё РЅРµ РїРѕРјРµС‰Р°СЋС‚СЃСЏ */
+    justify-content: center; /* Р¦РµРЅС‚СЂРёСЂРѕРІР°РЅРёРµ РёРєРѕРЅРѕРє */
+    gap: 10px; /* Р Р°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ РёРєРѕРЅРєР°РјРё */
     padding: 20px;
 }
 
 .language-option {
-    width: 50px; /* Размер иконок */
+    width: 50px; /* Р Р°Р·РјРµСЂ РёРєРѕРЅРѕРє */
     height: 50px;
     cursor: pointer;
     border-radius: 50%;
@@ -653,12 +648,12 @@
 }
 
 .language-option:hover {
-    transform: scale(1.1); /* Увеличение иконки при наведении */
+    transform: scale(1.1); /* РЈРІРµР»РёС‡РµРЅРёРµ РёРєРѕРЅРєРё РїСЂРё РЅР°РІРµРґРµРЅРёРё */
 }
 
 @media (max-width: 600px) {
     .language-option {
-        width: 40px; /* Уменьшаем размер иконок для мобильных устройств */
+        width: 40px; /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ РёРєРѕРЅРѕРє РґР»СЏ РјРѕР±РёР»СЊРЅС‹С… СѓСЃС‚СЂРѕР№СЃС‚РІ */
         height: 40px;
     }
 }
@@ -676,15 +671,15 @@
 
 <div class="language-selection">
     <img src="en.png" alt="English" class="language-option" onclick="changeLanguage('en')">
-    <img src="ru.png" alt="Русский" class="language-option" onclick="changeLanguage('ru')">
-    <img src="in.png" alt="हिंदी" class="language-option" onclick="changeLanguage('hi')">
-    <img src="br.png" alt="Português (Brasil)" class="language-option" onclick="changeLanguage('br')">
-    <img src="es.png" alt="Español" class="language-option" onclick="changeLanguage('es')">
+    <img src="ru.png" alt="Р СѓСЃСЃРєРёР№" class="language-option" onclick="changeLanguage('ru')">
+    <img src="in.png" alt="а¤№а¤їа¤‚а¤¦аҐЂ" class="language-option" onclick="changeLanguage('hi')">
+    <img src="br.png" alt="PortuguГЄs (Brasil)" class="language-option" onclick="changeLanguage('br')">
+    <img src="es.png" alt="EspaГ±ol" class="language-option" onclick="changeLanguage('es')">
     <img src="uz.png" alt="O'zbek" class="language-option" onclick="changeLanguage('uz')">
-    <img src="az.png" alt="Azərbaycan dili" class="language-option" onclick="changeLanguage('az')">
-    <img src="tr.png" alt="Türkçe" class="language-option" onclick="changeLanguage('tr')">
-    <img src="pt.png" alt="Português" class="language-option" onclick="changeLanguage('pt')">
-    <img src="ar.png" alt="العربية" class="language-option" onclick="changeLanguage('ar')">
+    <img src="az.png" alt="AzЙ™rbaycan dili" class="language-option" onclick="changeLanguage('az')">
+    <img src="tr.png" alt="TГјrkГ§e" class="language-option" onclick="changeLanguage('tr')">
+    <img src="pt.png" alt="PortuguГЄs" class="language-option" onclick="changeLanguage('pt')">
+    <img src="ar.png" alt="Ш§Щ„Ш№Ш±ШЁЩЉШ©" class="language-option" onclick="changeLanguage('ar')">
 </div>
 
 
@@ -794,10 +789,10 @@
 
 <div class="tab">
     <button class="tablinks games-icon" data-tab="Games" onclick="openTab(event, 'Games', this)">
-        <img src="game.png" alt="Игры">
+        <img src="game.png" alt="РРіСЂС‹">
     </button>
     <button class="tablinks contact-icon" data-tab="Contact" onclick="openTab(event, 'Contact', this)">
-        <img src="money.png" alt="Контакты">
+        <img src="money.png" alt="РљРѕРЅС‚Р°РєС‚С‹">
     </button>
 </div>
 
@@ -840,54 +835,54 @@ const translations = {
         telegramButton2: "Go to telegram (EN)"
     },
     ru: {
-        gamePickerTitle: "ВЫБОР ИГР",
-        detectButton: "Определить устройство",
-        startButton: "Начать",
+        gamePickerTitle: "Р’Р«Р‘РћР  РР“Р ",
+        detectButton: "РћРїСЂРµРґРµР»РёС‚СЊ СѓСЃС‚СЂРѕР№СЃС‚РІРѕ",
+        startButton: "РќР°С‡Р°С‚СЊ",
         game1Title: "Mines",
-        game1Button: "Открыть",
+        game1Button: "РћС‚РєСЂС‹С‚СЊ",
         game2Title: "Mines Spibe",
-        game2Button: "Открыть",
+        game2Button: "РћС‚РєСЂС‹С‚СЊ",
         game3Title: "Bombucks",
-        game3Button: "Открыть",
+        game3Button: "РћС‚РєСЂС‹С‚СЊ",
         game4Title: "Brawl Pirates",
-        game4Button: "Открыть",
+        game4Button: "РћС‚РєСЂС‹С‚СЊ",
         game5Title: "Royal Mines",
-        game5Button: "Открыть",
+        game5Button: "РћС‚РєСЂС‹С‚СЊ",
         game6Title: "Aviator",
-        game6Button: "Открыть",
+        game6Button: "РћС‚РєСЂС‹С‚СЊ",
         game7Title: "Luckyjet",
-        game7Button: "Открыть",
+        game7Button: "РћС‚РєСЂС‹С‚СЊ",
         game8Title: "Penalty Shoot",
-        game8Button: "Открыть",
+        game8Button: "РћС‚РєСЂС‹С‚СЊ",
         game9Title: "Football X",
-        game9Button: "Открыть",
-        telegramButton: "Перейти в телеграм (RU)",
-        telegramButton2: "Перейти в телеграм (EN)"
+        game9Button: "РћС‚РєСЂС‹С‚СЊ",
+        telegramButton: "РџРµСЂРµР№С‚Рё РІ С‚РµР»РµРіСЂР°Рј (RU)",
+        telegramButton2: "РџРµСЂРµР№С‚Рё РІ С‚РµР»РµРіСЂР°Рј (EN)"
     },
     hi: {
-        gamePickerTitle: "गेम पिकर",
-        detectButton: "डिवाइस का पता लगाएं",
-        startButton: "शुरू करें",
+        gamePickerTitle: "а¤—аҐ‡а¤® а¤Єа¤їа¤•а¤°",
+        detectButton: "а¤Ўа¤їа¤µа¤ѕа¤‡а¤ё а¤•а¤ѕ а¤Єа¤¤а¤ѕ а¤Іа¤—а¤ѕа¤Џа¤‚",
+        startButton: "а¤¶аҐЃа¤°аҐ‚ а¤•а¤°аҐ‡а¤‚",
         game1Title: "Mines",
-        game1Button: "खोलें",
+        game1Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game2Title: "Mines Spibe",
-        game2Button: "खोलें",
+        game2Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game3Title: "Bombucks",
-        game3Button: "खोलें",
+        game3Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game4Title: "Brawl Pirates",
-        game4Button: "खोलें",
+        game4Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game5Title: "Royal Mines",
-        game5Button: "खोलें",
+        game5Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game6Title: "Aviator",
-        game6Button: "खोलें",
+        game6Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game7Title: "Luckyjet",
-        game7Button: "खोलें",
+        game7Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game8Title: "Penalty Shoot",
-        game8Button: "खोलें",
+        game8Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
         game9Title: "Football X",
-        game9Button: "खोलें",
-        telegramButton: "टेलीग्राम पर जाएं (RU)",
-        telegramButton2: "टेलीग्राम पर जाएं (EN)"
+        game9Button: "а¤–аҐ‹а¤ІаҐ‡а¤‚",
+        telegramButton: "а¤џаҐ‡а¤ІаҐЂа¤—аҐЌа¤°а¤ѕа¤® а¤Єа¤° а¤ња¤ѕа¤Џа¤‚ (RU)",
+        telegramButton2: "а¤џаҐ‡а¤ІаҐЂа¤—аҐЌа¤°а¤ѕа¤® а¤Єа¤° а¤ња¤ѕа¤Џа¤‚ (EN)"
     },
     br: {
         gamePickerTitle: "SELETOR DE JOGOS",
@@ -965,52 +960,52 @@ const translations = {
         telegramButton2: "Telegramga o'tish (EN)"
     },
     az: {
-        gamePickerTitle: "OYUN SEÇİCİ",
-        detectButton: "Cihazı aşkar et",
-        startButton: "Başla",
+        gamePickerTitle: "OYUN SEГ‡Д°CД°",
+        detectButton: "CihazД± aЕџkar et",
+        startButton: "BaЕџla",
         game1Title: "Mines",
-        game1Button: "Aç",
+        game1Button: "AГ§",
         game2Title: "Mines Spibe",
-        game2Button: "Aç",
+        game2Button: "AГ§",
         game3Title: "Bombucks",
-        game3Button: "Aç",
+        game3Button: "AГ§",
         game4Title: "Brawl Pirates",
-        game4Button: "Aç",
+        game4Button: "AГ§",
         game5Title: "Royal Mines",
-        game5Button: "Aç",
+        game5Button: "AГ§",
         game6Title: "Aviator",
-        game6Button: "Aç",
+        game6Button: "AГ§",
         game7Title: "Luckyjet",
-        game7Button: "Aç",
+        game7Button: "AГ§",
         game8Title: "Penalty Shoot",
-        game8Button: "Aç",
+        game8Button: "AГ§",
         game9Title: "Football X",
-        game9Button: "Aç",
-        telegramButton: "Teleqrama keç (RU)",
-        telegramButton2: "Teleqrama keç (EN)"
+        game9Button: "AГ§",
+        telegramButton: "Teleqrama keГ§ (RU)",
+        telegramButton2: "Teleqrama keГ§ (EN)"
     },
     tr: {
-        gamePickerTitle: "OYUN SEÇİCİ",
-        detectButton: "Cihazı tespit et",
-        startButton: "Başlat",
+        gamePickerTitle: "OYUN SEГ‡Д°CД°",
+        detectButton: "CihazД± tespit et",
+        startButton: "BaЕџlat",
         game1Title: "Mines",
-        game1Button: "Aç",
+        game1Button: "AГ§",
         game2Title: "Mines Spibe",
-        game2Button: "Aç",
+        game2Button: "AГ§",
         game3Title: "Bombucks",
-        game3Button: "Aç",
+        game3Button: "AГ§",
         game4Title: "Brawl Pirates",
-        game4Button: "Aç",
+        game4Button: "AГ§",
         game5Title: "Royal Mines",
-        game5Button: "Aç",
+        game5Button: "AГ§",
         game6Title: "Aviator",
-        game6Button: "Aç",
+        game6Button: "AГ§",
         game7Title: "Luckyjet",
-        game7Button: "Aç",
+        game7Button: "AГ§",
         game8Title: "Penalty Shoot",
-        game8Button: "Aç",
+        game8Button: "AГ§",
         game9Title: "Football X",
-        game9Button: "Aç",
+        game9Button: "AГ§",
         telegramButton: "Telegrame git (RU)",
         telegramButton2: "Telegrame git (EN)"
     },
@@ -1040,29 +1035,29 @@ const translations = {
         telegramButton2: "Ir para o Telegram (EN)"
     },
     ar: {
-        gamePickerTitle: "مُختار الألعاب",
-        detectButton: "اكتشاف الجهاز",
-        startButton: "ابدأ",
+        gamePickerTitle: "Щ…ЩЏШ®ШЄШ§Ш± Ш§Щ„ШЈЩ„Ш№Ш§ШЁ",
+        detectButton: "Ш§ЩѓШЄШґШ§ЩЃ Ш§Щ„Ш¬Щ‡Ш§ШІ",
+        startButton: "Ш§ШЁШЇШЈ",
         game1Title: "Mines",
-        game1Button: "فتح",
+        game1Button: "ЩЃШЄШ",
         game2Title: "Mines Spibe",
-        game2Button: "فتح",
+        game2Button: "ЩЃШЄШ",
         game3Title: "Bombucks",
-        game3Button: "فتح",
+        game3Button: "ЩЃШЄШ",
         game4Title: "Brawl Pirates",
-        game4Button: "فتح",
+        game4Button: "ЩЃШЄШ",
         game5Title: "Royal Mines",
-        game5Button: "فتح",
+        game5Button: "ЩЃШЄШ",
         game6Title: "Aviator",
-        game6Button: "فتح",
+        game6Button: "ЩЃШЄШ",
         game7Title: "Luckyjet",
-        game7Button: "فتح",
+        game7Button: "ЩЃШЄШ",
         game8Title: "Penalty Shoot",
-        game8Button: "فتح",
+        game8Button: "ЩЃШЄШ",
         game9Title: "Football X",
-        game9Button: "فتح",
-        telegramButton: "اذهب إلى Telegram (RU)",
-        telegramButton2: "اذهب إلى Telegram (EN)"
+        game9Button: "ЩЃШЄШ",
+        telegramButton: "Ш§Ш°Щ‡ШЁ ШҐЩ„Щ‰ Telegram (RU)",
+        telegramButton2: "Ш§Ш°Щ‡ШЁ ШҐЩ„Щ‰ Telegram (EN)"
     }
 };
 
@@ -1103,16 +1098,16 @@ function changeLanguage(lang) {
         document.getElementById('game9-title').innerText = translations[lang].game9Title;
         document.getElementById('game9-button').innerText = translations[lang].game9Button;
 
-        // Обновляем текст для кнопок Telegram
+        // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ РґР»СЏ РєРЅРѕРїРѕРє Telegram
         document.getElementById('telegram-button').innerText = translations[lang].telegramButton;
         document.getElementById('telegram-button2').innerText = translations[lang].telegramButton2;
 
-        // Обновляем текст минимодала
+        // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ РјРёРЅРёРјРѕРґР°Р»Р°
         document.querySelector('.modal-content-mini h2').innerText = translations[lang].miniModalTitle;
         document.querySelector('.modal-content-mini p').innerText = translations[lang].miniModalContent
-            .replace('{gameName}', 'игры')  // Здесь можно заменить на конкретную игру
-            .replace('{probability}', '90')  // Можно заменить на реальные данные
-            .replace('{remainingTime}', '30');  // Заменить на оставшееся время
+            .replace('{gameName}', 'РёРіСЂС‹')  // Р—РґРµСЃСЊ РјРѕР¶РЅРѕ Р·Р°РјРµРЅРёС‚СЊ РЅР° РєРѕРЅРєСЂРµС‚РЅСѓСЋ РёРіСЂСѓ
+            .replace('{probability}', '90')  // РњРѕР¶РЅРѕ Р·Р°РјРµРЅРёС‚СЊ РЅР° СЂРµР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ
+            .replace('{remainingTime}', '30');  // Р—Р°РјРµРЅРёС‚СЊ РЅР° РѕСЃС‚Р°РІС€РµРµСЃСЏ РІСЂРµРјСЏ
 
         document.querySelector('.close-button-mini').innerText = translations[lang].miniModalButton;
     } else {
@@ -1142,43 +1137,43 @@ function changeLanguage(lang) {
             var miniModal = document.getElementById('miniModal');
             var aboutGif = document.getElementById('aboutGif');
         
-            // Скрываем все вкладки и удаляем класс 'active'
+            // РЎРєСЂС‹РІР°РµРј РІСЃРµ РІРєР»Р°РґРєРё Рё СѓРґР°Р»СЏРµРј РєР»Р°СЃСЃ 'active'
             tabcontent = document.getElementsByClassName("tabcontent");
             for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
                 tabcontent[i].classList.remove('active');
             }
         
-            // Удаляем класс 'active' у всех кнопок
+            // РЈРґР°Р»СЏРµРј РєР»Р°СЃСЃ 'active' Сѓ РІСЃРµС… РєРЅРѕРїРѕРє
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].classList.remove("active");
             }
         
-            // Показываем текущую вкладку и добавляем класс 'active'
+            // РџРѕРєР°Р·С‹РІР°РµРј С‚РµРєСѓС‰СѓСЋ РІРєР»Р°РґРєСѓ Рё РґРѕР±Р°РІР»СЏРµРј РєР»Р°СЃСЃ 'active'
             document.getElementById(tabName).style.display = "flex";
             document.getElementById(tabName).classList.add('active');
             button.classList.add("active");
         
-            // Скроллим страницу
+            // РЎРєСЂРѕР»Р»РёРј СЃС‚СЂР°РЅРёС†Сѓ
             if (tabName === 'Games') {
                 window.scrollTo({ top: 45, behavior: 'smooth' });
             } else {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         
-            // Обрабатываем вкладку 'About'
+            // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј РІРєР»Р°РґРєСѓ 'About'
             if (tabName === 'About') {
                 var newAboutGif = aboutGif.cloneNode(true);
                 aboutGif.parentNode.replaceChild(newAboutGif, aboutGif);
-                aboutGif = newAboutGif; // обновляем ссылку на новый элемент
+                aboutGif = newAboutGif; // РѕР±РЅРѕРІР»СЏРµРј СЃСЃС‹Р»РєСѓ РЅР° РЅРѕРІС‹Р№ СЌР»РµРјРµРЅС‚
                 aboutAudio.play();
             } else {
                 aboutAudio.pause();
                 aboutAudio.currentTime = 0;
             }
         
-            // Обрабатываем вкладку 'Contact'
+            // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј РІРєР»Р°РґРєСѓ 'Contact'
             if (tabName === 'Contact') {
                 miniModal.style.display = 'none';
             }
@@ -1417,7 +1412,7 @@ function changeLanguage(lang) {
             modal.classList.remove("show");
             setTimeout(() => {
                 modal.style.display = 'none';
-            }, 500); // 500ms - время вашей CSS transition
+            }, 500); // 500ms - РІСЂРµРјСЏ РІР°С€РµР№ CSS transition
         }
 
         var slideIndex = 1;
