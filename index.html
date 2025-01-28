@@ -51,9 +51,14 @@
         }
 
         .language-selection {
+            position: relative; /* Изменено с fixed на relative */
+            z-index: 10;
+            width: 100%;
             display: flex;
             justify-content: center;
-            margin-top: 20px;
+            background-color: #333;
+            padding: 10px 0;
+            border-radius: 50px;
         }
 
         .language-option {
